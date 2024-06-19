@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professor-RobinGeorge</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+        }
+        header {
+            background-color: #1e90ff;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #4682b4;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #5f9ea0;
+        }
+        .container {
+            display: flex;
+            margin: 20px;
+        }
+        .main {
+            flex: 3;
+            padding: 20px;
+        }
+        .sidebar {
+            flex: 1;
+            padding: 20px;
+            background-color: #e6f7ff;
+        }
+        .sidebar h2 {
+            text-align: center;
+        }
+        .footer {
+            background-color: #4682b4;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            text-align: center;
+            background-color: #1e90ff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .button:hover {
+            background-color: #5f9ea0;
+        }
+        .login-form {
+            margin-top: 20px;
+        }
+        .login-form input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .calendar {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Professor-RobinGeorge</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Lecture Notes</a>
+        <a href="#">Assignments</a>
+        <a href="#">Live Data</a>
+        <a href="#">Calendar</a>
+        <a href="#">Forum</a>
+        <a href="#">Contact</a>
+        <a href="#">Login</a>
+    </nav>
+    <div class="container">
+        <div class="main">
+            <h2>Welcome to Dr. Robin George's Class</h2>
+            <p>Access the latest lecture notes, assignments, and live data. Stay up to date with the class calendar and participate in the forum for discussions.</p>
+            <a href="#" class="button">Lecture Notes</a>
+            <a href="#" class="button">Assignments</a>
+            <a href="#" class="button">Live Data</a>
+            <a href="#" class="button">Calendar</a>
+            <a href="#" class="button">Forum</a>
+        </div>
+        <div class="sidebar">
+            <h2>Login</h2>
+            <form class="login-form">
+                <input type="text" placeholder="Username" required>
+                <input type="password" placeholder="Password" required>
+                <input type="submit" value="Login">
+            </form>
+            <div class="calendar">
+                <h2>Calendar</h2>
+                <p>Important dates and deadlines will be shown here.</p>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>Contact: email@example.com | Phone: (123) 456-7890</p>
+        <p>&copy; 2024 Professor Robin George. All rights reserved.</p>
+    </footer>
+</body>
+</html>
