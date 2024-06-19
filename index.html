@@ -121,8 +121,8 @@
                 <input type="submit" value="Login">
             </form>
             <div class="calendar">
-                <h2>Calendar</h2>
-                <p>Important dates and deadlines will be shown here.</p>
+                <h2>Today's Date</h2>
+                <p>id="date"</p>
             </div>
         </div>
     </div>
@@ -130,5 +130,12 @@
         <p>Contact: email@example.com | Phone: (123) 456-7890</p>
         <p>&copy; 2024 Professor Robin George. All rights reserved.</p>
     </footer>
+     <script>
+        // Script to display today's date
+        const today = new Date();
+        const dateElement = document.getElementById('date');
+        const options = { year: 'numeric', month: 'long', day: 'numeric' };
+        dateElement.innerText = today.toLocaleDateString('en-US', options);
+    </script>
 </body>
 </html>
